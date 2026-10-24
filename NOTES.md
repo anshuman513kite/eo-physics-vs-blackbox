@@ -532,3 +532,6 @@ and the R4 physics gap is only 0.8 pts, so its half-gap k (99 for uncertainty) i
 - `.gitignore` (venv, raw data, predictions, fold checkpoints, `data/features.csv` > 5 MB, `results/*_run_log.txt`), `requirements.txt` (`pip freeze`
   of the venv, Python 3.14.7), MIT `LICENSE`.
 - Committed: 59 files, 6.9 MB, including `data/metadata.csv`, `data/blocks.csv` (derived tables, no imagery). `results/step4_log.txt`: home path replaced by `~/`; no committed file contains the home path.
+- GitHub (2026-10-24): gh 2.103.2 installed to `~/.local/bin` (official release, SHA-256 verified; no sudo). Logged in by the
+  owner in the browser. Git identity (repo-local): Anshuman Choudhury, GitHub no-reply address. Pushed to the **private** repo
+  https://github.com/anshuman513kite/eo-physics-vs-blackbox (branch `main`).
