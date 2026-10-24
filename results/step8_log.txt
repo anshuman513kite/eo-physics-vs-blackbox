@@ -1,0 +1,121 @@
+## Macro-F1 (%), BB — mean ± std over 5 seeds
+
+          random       block      region drop (rand−reg) leakage (rand−block) shift (block−reg) leak % of drop
+R0    82.9 ± 0.1  78.0 ± 0.3  62.7 ± 0.4            20.2            4.9 ± 0.2        15.2 ± 0.3             24
+R1    87.4 ± 0.5  86.0 ± 0.6  74.9 ± 0.4            12.5            1.4 ± 0.4        11.1 ± 0.5             11
+R2    88.5 ± 0.1  87.4 ± 0.2  76.5 ± 0.2            12.0            1.1 ± 0.2        10.9 ± 0.3              9
+R3    88.7 ± 0.1  86.9 ± 0.3  74.4 ± 0.2            14.3            1.8 ± 0.2        12.5 ± 0.4             12
+R4    86.7 ± 0.3  85.7 ± 0.2  82.5 ± 0.3             4.2            1.0 ± 0.4         3.2 ± 0.3             23
+R5    86.4 ± 0.2  84.7 ± 0.2  77.5 ± 0.1             8.9            1.7 ± 0.4         7.1 ± 0.3             19
+R7    83.0 ± 0.5  76.9 ± 1.0  71.0 ± 0.1            11.9            6.1 ± 0.8         5.9 ± 1.0             51
+Mean  86.2 ± 0.2  83.7 ± 0.2  74.2 ± 0.1            12.0            2.6 ± 0.2         9.4 ± 0.3             21
+
+## Macro-F1 (%), Phys — mean ± std over 5 seeds
+
+          random       block      region drop (rand−reg) leakage (rand−block) shift (block−reg) leak % of drop
+R0    80.0 ± 0.5  77.2 ± 0.4  68.5 ± 0.2            11.6            2.9 ± 0.6         8.7 ± 0.4             25
+R1    84.0 ± 0.2  82.9 ± 0.3  73.6 ± 0.2            10.4            1.1 ± 0.5         9.3 ± 0.5             11
+R2    83.1 ± 0.1  81.4 ± 0.2  73.5 ± 0.1             9.6            1.7 ± 0.3         7.9 ± 0.2             17
+R3    82.3 ± 0.3  78.9 ± 0.9  69.9 ± 0.2            12.3            3.3 ± 0.9         9.0 ± 1.0             27
+R4    79.3 ± 0.4  78.7 ± 0.6  77.9 ± 0.2             1.4            0.6 ± 0.8         0.8 ± 0.6             39
+R5    81.1 ± 0.3  79.4 ± 0.3  75.2 ± 0.1             5.9            1.7 ± 0.5         4.2 ± 0.4             29
+R7    81.3 ± 0.5  77.1 ± 1.4  72.7 ± 0.2             8.6            4.2 ± 1.6         4.4 ± 1.2             48
+Mean  81.6 ± 0.1  79.4 ± 0.2  73.0 ± 0.0             8.6            2.2 ± 0.2         6.3 ± 0.2             26
+
+## Macro-F1 (%), Comb — mean ± std over 5 seeds
+
+          random       block      region drop (rand−reg) leakage (rand−block) shift (block−reg) leak % of drop
+R0    86.0 ± 0.2  82.3 ± 0.4  68.3 ± 0.4            17.7            3.7 ± 0.3        14.0 ± 0.5             21
+R1    89.7 ± 0.3  88.2 ± 0.5  78.3 ± 0.2            11.4            1.5 ± 0.4        10.0 ± 0.6             13
+R2    89.6 ± 0.2  88.6 ± 0.2  79.0 ± 0.2            10.6            1.0 ± 0.3         9.6 ± 0.3              9
+R3    90.1 ± 0.1  88.2 ± 0.8  76.2 ± 0.2            13.9            1.9 ± 0.8        12.0 ± 1.0             14
+R4    87.2 ± 0.3  86.6 ± 0.2  84.5 ± 0.1             2.7            0.7 ± 0.3         2.1 ± 0.2             24
+R5    87.0 ± 0.2  85.3 ± 0.4  78.6 ± 0.2             8.3            1.7 ± 0.5         6.6 ± 0.4             21
+R7    86.6 ± 0.3  83.1 ± 0.5  78.0 ± 0.2             8.7            3.5 ± 0.8         5.1 ± 0.7             41
+Mean  88.0 ± 0.1  86.0 ± 0.2  77.6 ± 0.0            10.5            2.0 ± 0.1         8.5 ± 0.1             19
+
+## Accuracy (%), BB — mean ± std over 5 seeds
+
+          random       block      region drop (rand−reg) leakage (rand−block) shift (block−reg) leak % of drop
+R0    81.4 ± 0.2  75.6 ± 0.2  57.9 ± 0.3            23.5            5.8 ± 0.2        17.7 ± 0.4             25
+R1    91.3 ± 0.3  89.3 ± 0.5  67.9 ± 0.3            23.3            2.0 ± 0.4        21.4 ± 0.4              8
+R2    90.0 ± 0.1  88.7 ± 0.1  72.8 ± 0.2            17.2            1.3 ± 0.2        15.9 ± 0.1              8
+R3    90.9 ± 0.1  89.6 ± 0.2  81.8 ± 0.1             9.0            1.2 ± 0.1         7.8 ± 0.2             13
+R4    91.2 ± 0.2  90.5 ± 0.2  87.4 ± 0.1             3.8            0.8 ± 0.4         3.0 ± 0.2             20
+R5    88.9 ± 0.2  87.1 ± 0.2  80.0 ± 0.2             8.9            1.8 ± 0.4         7.1 ± 0.3             20
+R7    89.4 ± 0.2  83.6 ± 1.6  74.8 ± 0.2            14.6            5.8 ± 1.5         8.7 ± 1.5             40
+Mean  89.0 ± 0.1  86.3 ± 0.3  74.7 ± 0.1            14.3            2.7 ± 0.3        11.7 ± 0.3             19
+
+## Accuracy (%), Phys — mean ± std over 5 seeds
+
+          random       block      region drop (rand−reg) leakage (rand−block) shift (block−reg) leak % of drop
+R0    78.5 ± 0.4  75.0 ± 0.6  64.1 ± 0.2            14.4            3.6 ± 0.6        10.9 ± 0.7             25
+R1    85.5 ± 0.1  84.1 ± 0.3  66.8 ± 0.1            18.7            1.5 ± 0.3        17.3 ± 0.3              8
+R2    85.4 ± 0.1  83.6 ± 0.2  72.4 ± 0.2            13.0            1.8 ± 0.3        11.2 ± 0.4             14
+R3    86.6 ± 0.3  84.9 ± 0.3  79.1 ± 0.2             7.5            1.6 ± 0.4         5.9 ± 0.4             22
+R4    87.8 ± 0.2  87.3 ± 0.2  86.7 ± 0.1             1.0            0.5 ± 0.4         0.6 ± 0.2             41
+R5    85.0 ± 0.3  83.1 ± 0.3  78.5 ± 0.1             6.5            2.0 ± 0.5         4.6 ± 0.4             30
+R7    84.3 ± 0.3  79.1 ± 1.9  73.5 ± 0.2            10.8            5.2 ± 2.0         5.5 ± 1.7             48
+Mean  84.7 ± 0.1  82.4 ± 0.4  74.4 ± 0.1            10.3            2.3 ± 0.3         8.0 ± 0.3             22
+
+## Accuracy (%), Comb — mean ± std over 5 seeds
+
+          random       block      region drop (rand−reg) leakage (rand−block) shift (block−reg) leak % of drop
+R0    85.3 ± 0.1  81.3 ± 0.6  62.9 ± 0.4            22.4            4.0 ± 0.5        18.4 ± 0.5             18
+R1    92.4 ± 0.2  90.8 ± 0.4  72.3 ± 0.2            20.1            1.7 ± 0.2        18.4 ± 0.4              8
+R2    90.9 ± 0.2  89.7 ± 0.1  75.4 ± 0.3            15.5            1.2 ± 0.2        14.3 ± 0.3              8
+R3    91.9 ± 0.1  90.7 ± 0.5  83.3 ± 0.1             8.6            1.2 ± 0.5         7.4 ± 0.5             14
+R4    91.8 ± 0.2  91.4 ± 0.1  90.0 ± 0.0             1.8            0.4 ± 0.2         1.3 ± 0.1             24
+R5    89.9 ± 0.2  88.2 ± 0.4  81.5 ± 0.2             8.5            1.7 ± 0.5         6.7 ± 0.3             20
+R7    91.3 ± 0.1  87.7 ± 0.7  80.9 ± 0.2            10.4            3.5 ± 0.8         6.9 ± 0.9             34
+Mean  90.5 ± 0.1  88.5 ± 0.2  78.0 ± 0.1            12.5            2.0 ± 0.2        10.5 ± 0.2             16
+
+## Paired counts over 35 seed × region pairs (macro-F1)
+
+BB  : block < random in 35/35 (leakage range 0.63 … 7.22); region < block in 35/35 (shift range 2.85 … 15.61)
+Phys: block < random in 34/35 (leakage range -0.31 … 7.06); region < block in 35/35 (shift range 0.15 … 10.13)
+Comb: block < random in 35/35 (leakage range 0.43 … 4.80); region < block in 35/35 (shift range 1.83 … 14.31)
+
+## Ranking by mean macro-F1 per split
+
+random: Comb 88.0  BB 86.2  Phys 81.6
+block : Comb 86.0  BB 83.7  Phys 79.4
+region: Comb 77.6  BB 74.2  Phys 73.0
+
+block split, Comb − BB: mean +2.38, combined higher in 35/35
+block split, Comb − Phys: mean +6.67, combined higher in 35/35
+block split, BB − Phys: mean +4.29, blackbox higher in 32/35
+
+## Step 6 half-gap, mean curve: random-split reference (as in step 6) vs block-split reference
+
+             set reference_type   k0  reference  target  f1_at_500  gap_closed_at_500_pct      k_half
+       BB random   random_split 74.1       86.2    80.2       80.1                   49.5 not reached
+       BB random    block_split 74.1       83.7    78.9       80.1                   62.8         367
+  BB uncertainty   random_split 74.1       86.2    80.2       82.2                   66.8         331
+  BB uncertainty    block_split 74.1       83.7    78.9       82.2                   84.7         225
+     Phys random   random_split 73.2       81.6    77.4       76.6                   40.1 not reached
+     Phys random    block_split 73.2       79.4    76.3       76.6                   54.5         454
+Phys uncertainty   random_split 73.2       81.6    77.4       78.2                   59.6         396
+Phys uncertainty    block_split 73.2       79.4    76.3       78.2                   80.9         253
+
+Per region, k for half gap (block-split reference); in brackets the step-6 value (random-split reference):
+
+                    BB random BB uncertainty                Phys random   Phys uncertainty
+R0                  329 (454)      259 (366)          428 (not reached)          221 (341)
+R1                  114 (197)      120 (189)                  422 (481)          316 (369)
+R2          462 (not reached)      331 (375)          451 (not reached)          391 (474)
+R3          445 (not reached)      162 (238)  not reached (not reached)          312 (487)
+R4  not reached (not reached)      255 (353)  not reached (not reached)           99 (409)
+R5  not reached (not reached)      353 (447)  not reached (not reached)  339 (not reached)
+R7          230 (not reached)       97 (333)                  144 (407)           30 (189)
+
+Per region, % of gap closed at k=500, block-split reference (random-split reference):
+
+   BB random BB uncertainty Phys random Phys uncertainty
+R0   72 (54)        87 (66)     57 (43)          89 (67)
+R1   80 (71)        85 (75)     58 (52)          72 (64)
+R2   53 (48)        69 (63)     55 (45)          64 (53)
+R3   55 (48)        81 (71)     27 (20)          69 (51)
+R4   37 (29)        85 (66)     35 (22)          92 (56)
+R5   38 (31)        68 (55)     41 (29)          71 (49)
+R7   88 (44)       135 (68)    120 (59)         149 (73)

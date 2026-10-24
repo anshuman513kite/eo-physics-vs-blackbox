@@ -1,0 +1,44 @@
+Seeds: [np.int64(0), np.int64(1), np.int64(2), np.int64(3), np.int64(4)]. Mean over 7 regions; mean ± std over seeds. k=0 is the same model for both methods.
+
+## Macro-F1 (%) vs k
+
+      BB random BB uncertainty Phys random Phys uncertainty
+k                                                          
+0    74.1 ± 0.4     74.1 ± 0.4  73.2 ± 0.2       73.2 ± 0.2
+10   74.5 ± 0.3     74.8 ± 0.3  73.3 ± 0.3       73.5 ± 0.2
+50   75.5 ± 0.4     76.2 ± 0.3  73.7 ± 0.2       74.4 ± 0.1
+100  76.4 ± 0.5     77.4 ± 0.4  74.1 ± 0.0       75.1 ± 0.2
+500  80.1 ± 0.5     82.2 ± 0.3  76.6 ± 0.2       78.2 ± 0.2
+
+## Accuracy (%) vs k
+
+      BB random BB uncertainty Phys random Phys uncertainty
+k                                                          
+0    74.6 ± 0.3     74.6 ± 0.3  74.4 ± 0.1       74.4 ± 0.1
+10   75.1 ± 0.2     75.2 ± 0.3  74.6 ± 0.1       74.7 ± 0.1
+50   76.6 ± 0.4     77.0 ± 0.3  75.2 ± 0.1       75.7 ± 0.1
+100  78.0 ± 0.4     78.8 ± 0.4  75.7 ± 0.1       76.5 ± 0.2
+500  82.9 ± 0.5     84.8 ± 0.4  79.0 ± 0.1       80.5 ± 0.1
+
+Reference (step-4 random-split macro-F1, 500 trees, all region tiles): BB 86.2 ± 0.2, Phys 81.6 ± 0.1
+
+## Labels needed to close half the gap between k=0 and the reference (linear interpolation in k)
+
+features      method   k0  reference  target  f1_at_500      k_half  gap_closed_at_500_%
+blackbox      random 74.1       86.2    80.2       80.1 not reached                 49.5
+blackbox uncertainty 74.1       86.2    80.2       82.2         331                 66.8
+ physics      random 73.2       81.6    77.4       76.6 not reached                 40.1
+ physics uncertainty 73.2       81.6    77.4       78.2         396                 59.6
+
+Per region (k needed, seed-mean curve vs that region's reference):
+
+      BB random BB uncertainty  Phys random Phys uncertainty
+R0          454            366  not reached              341
+R1          197            189          481              369
+R2  not reached            375  not reached              474
+R3  not reached            238  not reached              487
+R4  not reached            353  not reached              409
+R5  not reached            447  not reached      not reached
+R7  not reached            333          407              189
+
+saved figures/relearning_curve.png

@@ -1,0 +1,8 @@
+region,AnnualCrop,Forest,HerbaceousVegetation,Highway,Industrial,Pasture,PermanentCrop,Residential,River,SeaLake,TOTAL,"centre(lat,lon)",FLAG(<50)
+0,267,105,707,361,217,13,463,176,99,87,2495,"39.3,-3.6",Pasture
+1,42,0,903,235,339,1315,0,356,101,202,3493,"53.4,-3.1","AnnualCrop,Forest,PermanentCrop"
+2,1350,335,233,354,375,242,803,709,374,123,4898,"46.4,3.5",
+3,177,958,298,789,814,204,457,701,1058,579,6035,"50.3,8.1",
+4,155,293,21,404,225,89,0,328,322,1395,3232,"56.6,16.9","HerbaceousVegetation,PermanentCrop"
+5,727,879,26,287,368,95,473,359,476,383,4073,"46.8,16.7",HerbaceousVegetation
+7,282,430,812,70,162,42,304,371,70,231,2774,"40.4,26.3",Pasture

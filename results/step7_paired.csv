@@ -1,0 +1,13 @@
+metric,value,comparison,mean,min,max,combined_wins,n_pairs
+macro_f1,regsplit,combined - blackbox,3.337,0.865,7.279,35,35
+macro_f1,regsplit,combined - physics,4.526,-0.701,7.015,32,35
+macro_f1,random,combined - blackbox,1.816,0.038,4.404,35,35
+macro_f1,random,combined - physics,6.446,4.632,8.582,35,35
+macro_f1,drop_pts,combined - blackbox,-1.521,-3.693,-0.147,35,35
+macro_f1,drop_pts,combined - physics,1.920,-0.665,6.563,2,35
+accuracy,regsplit,combined - blackbox,3.371,1.056,6.417,35,35
+accuracy,regsplit,combined - physics,3.603,-1.804,7.859,30,35
+accuracy,random,combined - blackbox,1.492,0.155,4.208,35,35
+accuracy,random,combined - physics,5.785,3.589,7.272,35,35
+accuracy,drop_pts,combined - blackbox,-1.879,-4.290,-0.025,35,35
+accuracy,drop_pts,combined - physics,2.182,-0.937,8.497,4,35

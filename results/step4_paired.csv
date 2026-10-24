@@ -1,0 +1,5 @@
+metric,unit,mean,min,max,n_physics_drops_less,n_pairs
+macro_f1,drop_pts,-3.442,-9.395,-1.407,35,35
+macro_f1,drop_pct,-3.531,-10.867,-0.519,35,35
+accuracy,drop_pts,-4.061,-9.459,-1.077,35,35
+accuracy,drop_pct,-4.034,-11.058,-0.788,35,35

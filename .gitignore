@@ -1,0 +1,18 @@
+# environment
+.venv/
+__pycache__/
+.pytest_cache/
+
+# raw data (download from Zenodo, see README)
+data/raw/
+
+# large or regenerable model outputs
+results/predictions_*
+results/step7_folds/
+results/step8_folds/
+*.tmp.npz
+results/*_run_log.txt
+
+# files over 5 MB (git cannot filter by size; listed explicitly, re-check with:
+#   find . -path ./.venv -prune -o -type f -size +5M -print)
+data/features.csv
